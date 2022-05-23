@@ -7,4 +7,6 @@ module com.keviron.cmms {
 
     opens com.keviron.cmms to javafx.fxml;
     exports com.keviron.cmms;
+    exports com.keviron.cmms.Controllers;
+    opens com.keviron.cmms.Controllers to javafx.fxml;
 }

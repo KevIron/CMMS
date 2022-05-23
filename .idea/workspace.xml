@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b2dec52-9ca7-4e11-862c-c121430b7ae0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/css/Main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/Main.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/Repairs.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/icons8-home-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/icons8-person-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/icons8-wrench-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/keviron/cmms/Controllers/RepairsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/subMenus/Repairs.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keviron/cmms/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keviron/cmms/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/keviron/cmms/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keviron/cmms/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/keviron/cmms/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keviron/cmms/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keviron/cmms/ApplicationMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keviron/cmms/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keviron/cmms/Controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Clients.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/subMenus/Clients.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Repairs.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/subMenus/Home.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,30 +42,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/marce/IdeaProjects/CMMS/src/main/resources/fxml&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/marce/IdeaProjects/CMMS/src/main/resources/fxml/subMenus"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marce\IdeaProjects\CMMS\src\main\resources\fxml\subMenus" />
       <recent name="C:\Users\marce\IdeaProjects\CMMS\src\main\resources\fxml" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marce\IdeaProjects\CMMS\src\main\resources\fxml\submenus" />
       <recent name="C:\Users\marce\IdeaProjects\CMMS\src\main\resources\img" />
       <recent name="C:\Users\marce\IdeaProjects\CMMS\src\main\resources\fxml" />
       <recent name="C:\Users\marce\IdeaProjects\CMMS\src\main\resources" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.keviron.cmms.HelloApplication" />
+    <configuration name="ApplicationMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.keviron.cmms.ApplicationMain" />
       <module name="CMMS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.keviron.cmms.*" />
+          <option name="PATTERN" value="com.keviron.cmms.Controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,7 +78,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="Application.ApplicationMain" />
       </list>
     </recent_temporary>
   </component>

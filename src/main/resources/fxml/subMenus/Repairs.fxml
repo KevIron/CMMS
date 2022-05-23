@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="RED" prefHeight="650.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.keviron.cmms.Controllers.RepairsController">
+   <children>
+      <Label layoutX="25.0" layoutY="57.0" prefHeight="40.0" prefWidth="450.0" text="Repairs Database :">
+         <font>
+            <Font name="Comic Sans MS" size="36.0" />
+         </font>
+      </Label>
+      <TableView fx:id="repairsList" layoutX="25.0" layoutY="175.0" prefHeight="300.0" prefWidth="800.0">
+        <columns>
+          <TableColumn prefWidth="96.0" text="Client  Name" />
+            <TableColumn prefWidth="96.0" text="Client  Surname" />
+            <TableColumn prefWidth="96.0" text="Car Brand" />
+            <TableColumn prefWidth="96.0" text="Car Name" />
+            <TableColumn prefWidth="96.0" text="WIN" />
+            <TableColumn prefWidth="96.0" text="Date" />
+            <TableColumn prefWidth="223.0" text="Repair Activities" />
+        </columns>
+      </TableView>
+      <TextField layoutX="25.0" layoutY="134.0" prefHeight="25.0" prefWidth="625.0" />
+      <Button layoutX="671.0" layoutY="134.0" mnemonicParsing="false" text="Search" />
+      <Button layoutX="624.0" layoutY="557.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="Add New">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <ChoiceBox layoutX="25.0" layoutY="565.0" prefWidth="150.0" />
+      <ChoiceBox layoutX="188.0" layoutY="565.0" prefWidth="150.0" />
+      <ChoiceBox layoutX="350.0" layoutY="565.0" prefWidth="150.0" />
+      <Label layoutX="25.0" layoutY="525.0" prefHeight="25.0" prefWidth="475.0" text="Searching by date :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

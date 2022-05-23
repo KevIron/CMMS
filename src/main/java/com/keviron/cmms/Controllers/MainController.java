@@ -1,4 +1,4 @@
-package com.keviron.cmms;
+package com.keviron.cmms.Controllers;
 
 import javafx.animation.FadeTransition;
 import javafx.event.ActionEvent;
@@ -14,8 +14,8 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class HelloController implements Initializable {
-    private int am = 1;
+public class MainController implements Initializable {
+    private int actualPageId = 1;
 
     @FXML
     private AnchorPane MenuPanel;
@@ -33,14 +33,12 @@ public class HelloController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle rb)  {
-
     }
 
-
     @FXML
-    public void switchToRepairs(ActionEvent evt) throws IOException {
-        if (am == 2) {return;}
-        am = 2;
+    public void switchToHome(ActionEvent evt) throws IOException {
+        if (actualPageId == 1) {return;}
+        actualPageId = 1;
 
         FadeTransition FadeOut = new FadeTransition(Duration.millis(500), ContentPanel);
         makeFadeTransition(FadeOut, 1.0, 0.0);
@@ -48,7 +46,30 @@ public class HelloController implements Initializable {
         FadeOut.setOnFinished((e) -> {
             try {
                 ContentPanel.getChildren().clear();
-                ContentPanel.getChildren().add(FXMLLoader.load(getClass().getResource("/fxml/Repairs.fxml")));
+                ContentPanel.getChildren().add(FXMLLoader.load(getClass().getResource("/fxml/subMenus/Home.fxml")));
+
+                FadeTransition FadeIn = new FadeTransition(Duration.millis(500), ContentPanel);
+                makeFadeTransition(FadeIn, 0.0, 1.0);
+
+            } catch (IOException ex) {
+                throw new RuntimeException(ex);
+            }
+        });
+
+    }
+
+    @FXML
+    public void switchToRepairs(ActionEvent evt) throws IOException {
+        if (actualPageId == 2) {return;}
+        actualPageId = 2;
+
+        FadeTransition FadeOut = new FadeTransition(Duration.millis(500), ContentPanel);
+        makeFadeTransition(FadeOut, 1.0, 0.0);
+
+        FadeOut.setOnFinished((e) -> {
+            try {
+                ContentPanel.getChildren().clear();
+                ContentPanel.getChildren().add(FXMLLoader.load(getClass().getResource("/fxml/subMenus/Repairs.fxml")));
 
                 FadeTransition FadeIn = new FadeTransition(Duration.millis(500), ContentPanel);
                 makeFadeTransition(FadeIn, 0.0, 1.0);
@@ -62,8 +83,8 @@ public class HelloController implements Initializable {
 
     @FXML
     public void switchToClients(ActionEvent evt) throws IOException {
-        if (am == 2) {return;}
-        am = 2;
+        if (actualPageId == 3) {return;}
+        actualPageId = 3;
 
         FadeTransition FadeOut = new FadeTransition(Duration.millis(500), ContentPanel);
         makeFadeTransition(FadeOut, 1.0, 0.0);
@@ -71,7 +92,7 @@ public class HelloController implements Initializable {
         FadeOut.setOnFinished((e) -> {
             try {
                 ContentPanel.getChildren().clear();
-                ContentPanel.getChildren().add(FXMLLoader.load(getClass().getResource("/fxml/Clients.fxml")));
+                ContentPanel.getChildren().add(FXMLLoader.load(getClass().getResource("/fxml/subMenus/Clients.fxml")));
 
                 FadeTransition FadeIn = new FadeTransition(Duration.millis(500), ContentPanel);
                 makeFadeTransition(FadeIn, 0.0, 1.0);
@@ -88,4 +109,6 @@ public class HelloController implements Initializable {
         fade.setToValue(EndValue);
         fade.play();
     }
+
+
 }
