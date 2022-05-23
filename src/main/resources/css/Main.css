@@ -1,0 +1,28 @@
+#MenuPanel {
+    -fx-background-radius: 0 30 30 0;
+    -fx-background-color: linear-gradient(#63c276, #ed9140);
+}
+
+#homeButton:pressed {
+     -fx-background-color: linear-gradient(to bottom left, #6284FF, #FF0000);
+}
+#repairsButton:pressed {
+     -fx-background-color: linear-gradient(to bottom left, #6284FF, #FF0000);
+}
+#clientsButton:pressed {
+     -fx-background-color: linear-gradient(to bottom left, #6284FF, #FF0000);
+}
+
+#clientsButton {
+    -fx-background-color: transparent;
+}
+#homeButton {
+    -fx-background-color: transparent;
+}
+#repairsButton {
+    -fx-background-color: transparent;
+}
+
+.root {
+    -fx-background-color: linear-gradient(#0093E9, #80D0C7);
+}

@@ -4,14 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b2dec52-9ca7-4e11-862c-c121430b7ae0" name="Changes" comment="" />
+    <list default="true" id="5b2dec52-9ca7-4e11-862c-c121430b7ae0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/Main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/Main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/Repairs.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/icons8-home-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/icons8-person-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/icons8-wrench-48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keviron/cmms/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keviron/cmms/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keviron/cmms/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keviron/cmms/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/keviron/cmms/hello-view.fxml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="29G8DctonJddADl4Bt7XBC9tT6c" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,12 +40,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/marce/IdeaProjects/CMMS/src/main/resources/fxml&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marce\IdeaProjects\CMMS\src\main\resources\fxml" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marce\IdeaProjects\CMMS\src\main\resources\img" />
+      <recent name="C:\Users\marce\IdeaProjects\CMMS\src\main\resources\fxml" />
+      <recent name="C:\Users\marce\IdeaProjects\CMMS\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.keviron.cmms.HelloApplication" />
+      <module name="CMMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keviron.cmms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
