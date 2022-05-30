@@ -1,5 +1,6 @@
 package com.keviron.cmms;
 
+import com.keviron.cmms.Database.H2DatabaseConnector;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -7,6 +8,8 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.SQLException;
 
 public class ApplicationMain extends Application {
     @Override
